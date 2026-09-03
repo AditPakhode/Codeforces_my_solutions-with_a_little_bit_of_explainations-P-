@@ -35,4 +35,4 @@ So the range is [2, +ve infinity).
 
 Check the edge cases,
     2: -
-    2 cna be divided into 2 parts that is 1 for Pete and 1 for Billy but these parts are odd and there is not other way of dividing it ( since the constraint says both should get +ve weight we cannot give one 0 and other 2).
+    2 can be divided into 2 parts that is 1 for Pete and 1 for Billy but these parts are odd and there is not other way of dividing it ( since the constraint says both should get +ve weight we cannot give one 0 and other 2).
