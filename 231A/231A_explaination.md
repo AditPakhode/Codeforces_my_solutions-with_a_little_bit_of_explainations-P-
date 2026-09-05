@@ -1,5 +1,5 @@
-###Question : -
-##A. Team
+### Question : -
+## A. Team
 time limit per test
 2 seconds
 memory limit per test
@@ -45,7 +45,7 @@ Note
 In the first sample Petya and Vasya are sure that they know how to solve the first problem and all three of them know how to solve the second problem. That means that they will write solutions for these problems. Only Petya is sure about the solution for the third problem, but that isn't enough, so the friends won't take it.
 
 In the second sample the friends will only implement the second problem, as Vasya and Tonya are sure about the solution.
-###solution: -
+### solution: -
 
 -So the answer is simpole conditional statment nothing really..
 -You just have to add all of the three options and check if they are >=2 (atleast 2). If they are increased the solved_problem value and return it. :P

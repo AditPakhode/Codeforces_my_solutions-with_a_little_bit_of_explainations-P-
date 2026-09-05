@@ -1,5 +1,5 @@
-###Question : -
-##A. Watermelon
+### Question : -
+## A. Watermelon
 time limit per test
 1 second
 memory limit per test
@@ -15,7 +15,7 @@ Output
 
 Print YES, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and NO in the opposite case.
 
-###Examples: -
+### Examples: -
 
 **Input**
 8
@@ -23,7 +23,7 @@ Print YES, if the boys can divide the watermelon into two parts, each of them we
 **Output**
 YES
 
-###solution: -
+### solution: -
 
 The constraint is dividing the watermelon into 2 even pieces.
 
