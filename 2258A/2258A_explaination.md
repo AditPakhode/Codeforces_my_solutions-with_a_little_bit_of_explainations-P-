@@ -58,3 +58,4 @@ Then, choosing indices [2,5,6] results in the removal of a5=9 and the array [2,4
 - The only element that are definite are the first and last element, All the elements in the middle are removable. Eventually  every element in the array except the first and last element will be removed.
 - The lesser the number of elements in the GCD the higher the chances of it being the maximum possible GCD/
 - So the my solution only on the first and last elements. If you try to find the GCD including any of the middle element. The GCD will be greater than or equal to GCD of only the first and last element but never greater than it(to confirm my theory perform trial and error and see for yourself).
+- So the code itself is just looking complicated because I have used a little of mathematics to reduce the time complexity (I got a TLE before because of it).
