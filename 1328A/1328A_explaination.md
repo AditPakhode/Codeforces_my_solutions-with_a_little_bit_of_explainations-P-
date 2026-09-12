@@ -1,5 +1,5 @@
 ### Question : -
-## A. A. Divisibility Problem
+## A. Divisibility Problem
 time limit per test
 1 second
 memory limit per test
