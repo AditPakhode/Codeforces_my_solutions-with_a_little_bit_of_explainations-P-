@@ -20,7 +20,6 @@ Output
 For each test case, print one integer — the number of times the correct solution will print FizzBuzz with the given value of n.
 Example
 Input
-Copy
 
 7
 0
@@ -32,7 +31,6 @@ Copy
 998244353
 
 Output
-Copy
 
 1
 3
