@@ -57,7 +57,25 @@ In the third test case, he can withdraw his money on the 1-st, 3-rd, and 4-th da
 
 ### solution: -
 
-- You check the corresponding first and last then second and second last elements and so on. If the last elements in the array are not equal then ..
-- If any one is equal to the character given to us then only one of the two characters in the string will change so increase ans by 1. 
-- If the above is not the case then you would have to change both of the characters in the array which would increase ans by 2.
-- If both the characters are equal then there's no need to do anything..
+If Hamed waits d days before withdrawing, the amount of money in his card increases by exactly 2d.
+
+Therefore the problem becomes: Split n into exactly k positive integers a1,…,ak, and maximize
+2a1+2a2+...+2ak
+
+For fixed a+b, 2a+2b is larger when one of them is as large as possible.
+#### Proof
+
+{ Suppose two segment lengths are a≤b, with a>1. Move one day from the smaller segment to the larger one:
+(a,b)→(a−1,b+1)
+
+Compare the contributions:
+2a−1+2b+1−(2a+2b)=2b−2a−1>0
+
+So this change always increases the answer.
+
+Hence, in an optimal solution, we cannot have two segments with length greater than 1. We keep transferring days from smaller segments to the largest one until all but one segment have length 1.
+
+Thus the optimal lengths are
+n−k+1,1,1,…,1(k−1 times) }
+
+So the maximum amount is 2^(n−k+1)+2*(k−1)
