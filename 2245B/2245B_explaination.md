@@ -66,5 +66,4 @@ In the third test case, one optimal sequence of operations is:
 
 ### solution: -
 
- We separate the 
- 
+ We separate the pairs from the single numbers that were taken by grouping them together with numbers that can recover the loss that these smaller number would do.. these smaller numbers would then have to be lesser than 'c' to incur this loss and we shall pair these smaller numbers with larger ones to minimize our losses. Take the sum of all array and take the sum of all the losses that were paired up and weren't added minus them from the chosen ones.. and then finally cut the cost 'c' for each time we did the action of choosing. That's the total remaining answer of the problem. Hope you understood this.
